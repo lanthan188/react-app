@@ -18,8 +18,8 @@ pipeline {
     stage('Build image') {
       steps{
         script {
-          //dockerImage = docker.build dockerimagename
-          sh 'node --version'
+          dockerImage = docker.build dockerimagename
+          //sh 'node --version'
         }
       }
     }
