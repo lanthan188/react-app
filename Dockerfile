@@ -18,4 +18,3 @@ EXPOSE 3000
 
 #command to start the React.js containerized application
 CMD ["npm", "start"]
-
